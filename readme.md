@@ -1,0 +1,1 @@
+These commands will create user Nisha for SFTP and make chroot directory as /data/<username>
