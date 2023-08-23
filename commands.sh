@@ -11,6 +11,7 @@ chown -R nisha:sftpusers /data/nisha/upload
 cat /etc/passwd|grep nisha
 vim /etc/ssh/sshd_config
 
+#add below mentioned 3 lines at the end of /etc/ssh/sshd_config
 Match Group sftpusers
 ChrootDirectory /data/%u
 ForceCommand internal-sftp
